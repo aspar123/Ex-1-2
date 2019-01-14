@@ -1,0 +1,34 @@
+640,480
+
+1st circle center left-150,360px----radius=25
+1st Outercircle centre left-150,360px-----radius=50
+Semi circle left-150,360-----raduius=60
+2nd circle-520,360px----radius=25
+2nd outercircle centre right-520,360px----radius=50
+Semi circle right-520,360px----radius=60
+bottom line-200,360-470,360
+Middle line-140,300-530,300
+Vertical line 1-240,360-240,200
+Vertical line 2-420,240-400,190
+Vertical line 3-420,360-420,240
+From Left tire line-50,360-100,360
+Semi Arc-
+Upper horizontal line-50,190-610,190
+From Right tire line-570,360-610,360
+Semi Arc Right-
+Upper window-400,190-340,25-420,190-360
+upper line-430,190-360,25
+Headlights horizontal upper line-590,300-610,300
+                    vertical line-590,250-590,300
+                    down horz line-590,250-590,300
+Backlight-horz upper line-60,300-60,260
+                  vert 1-20,290-20,290
+                  horz down line-60,300,20,290
+                  vert 2 -60,260-20,260
+
+Syntax:
+circle(x,y,r)---(x,y)=center and r=radius
+line(x1,y1,x2,y2)
+arc(x,y,a1,a2,r)----(x,y)=Center,(a1,a2)=Start and end angle and r=raduis
+rectangle(x1,y1,x2,y2)  top rignt and left and bottom left and right
+drawpoly(n,points[]) n=no.of vertices and points=(co-ordinates of vertices)
